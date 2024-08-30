@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Escolha do Presente</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Era aniversário de Sara. Sua mãe lhe deu duas opções de presente:</p>
+            <button class="btn-proximo" data-proximo="1">Um Cachorro</button>
+            <button class="btn-proximo" data-proximo="2">Um Gato</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você escolheu um cachorro. Veja as características:</p>
+            <ul>
+                <li>Dá muito trabalho para cuidar</li>
+                <li>Carinhoso</li>
+                <li>Amoroso</li>
+                <li>Brincalhão</li>
+            </ul>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolheu um gato. Veja as características:</p>
+            <ul>
+                <li>Fácil de se cuidar</li>
+                <li>Menos carinho</li>
+                <li>Gosta de ficar mais pra rua</li>
+            </ul>
+            <button class="btn-proximo" data-proximo="4">Continuar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Sara gosta de dar carinho nos animais e quer um animal companheiro e carinhoso. Portanto, ela escolhe um cachorro.</p>
+            <img src="img/cachorro.png" alt="Cachorro">
+            <button class="btn-proximo" data-proximo="5">Finalizar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Sara prefere um animal que não demanda tanto cuidado e que não precisa de tanta atenção. Ela opta por um gato.</p>
+            <img src="img/gato.png" alt="Gato">
+            <button class="btn-proximo" data-proximo="5">Finalizar</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Sara fez sua escolha e está feliz com o presente escolhido.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
